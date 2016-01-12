@@ -373,6 +373,23 @@ Beweeg je muis over de afbeeldingen om de notaties te zien.
     </div>
 </div>
 
+<div class="row">
+    <div class="col-lg-6">
+        <span id="idea-5" class="c-ideaboard"></span>
+        <ol>
+            <li>ddd</li>
+            <li>ddd</li>
+        </ol>
+    </div>
+    <div class="col-lg-6">
+        <span id="idea-6" class="c-ideaboard"></span>
+        <ol>
+            <li>ddd</li>
+            <li>ddd</li>
+        </ol>
+    </div>
+</div>
+
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}

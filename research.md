@@ -4,19 +4,24 @@ title: Research
 permalink: /research/
 ---
 
-# Interviews
+# Research
+
+## Interviews
+***
 
 ### Geert Vandewalle
 
 | dd | oo |
 |:---|:---|
 | Job | Afdelingsverantwoordelijke |
-| Programma | Care careSolutions |
+| Programma | [Care careSolutions][caresolutions] |
 | Taken | Ingeven individuele zorgplannen, plannen van parameters |
 | Sterktes | Overzicht van dagboek, observaties kunnen niet geediteerd noch verwijderd worden (juridisch belang), familie kan zorgdossier inkijken (transparantie), berichten sturen naar zorgteam / huisarts / familie |
 | Design |Onduidelijke navigatie en onderverdeling. Structuur is niet rond bewoner opgebouwd.|
 | Pijnpunten | Structuur en onderverdeling. Geen prioriteitenlijst voor de overdracht. |
 {:.table}
+
+### Care Solutions
 
 #### Basis profiel
 * Naam
@@ -81,45 +86,257 @@ Allemaal obeservaties die als notitie worden ingegeven. Bij wondzorg wordt de op
 4. Kapster & pedicure
 5. Animatie
 
+### Ria Vanhee
+
+| dd | oo |
+|:---|:---|
+| Naam | Ria Vanhee |
+| Job | Verpleegkundige |
+| Programma | [Fonicare][fonicare] |
+| Taken | Uitvoeren van de planning, afteken van de zorgplanning, medicatie: klaarzetten - controleren en toedienen en afteken, observaties en parameters |
+| Sterktes | Het overzicht van taken, mogelijkheid om in de kamer zelf obeservaties toe te voegen. Veel gebruiksvriendelijker dan papieren dossier. |
+| Design | dd |
+| Pijnpunten | Administratie niet up to date met zorgplanning worden bepaalde taken niet uitgevoerd. |
+{:.table}
+
+
 ### Hanne Vandewalle
 
 | dd | oo |
 |:---|:---|
-| Job | Adjunct afdelingsverantwoordelijke |
-| Programma | Care careSolutions |
-| Taken | Ingeven individuele zorgplannen, plannen van parameters |
-| Sterktes | Terugkerende taken kunnen ingeven. |
-| Design | Onduidelijke navigatie en onderverdeling. Structuur is niet rond bewoner opgebouwd.|
-| Pijnpunten | Traag in gebruik. Niet gebruiksvriendelijke. User interaction is moeilijk waardoor systeem minder gebruikt wordt. |
+| Naam | Hanne Vandewalle |
+| Job | Afdelingsverantwoordelijke |
+| Programma | [Geracc][geracc] & [Fonicare][fonicare] |
+| Taken | Zorgplanning: plannen van allerhande prestatie, medicatierooster opmaken & aanpassen, bedside care, palliatieve zorg |
+| Sterktes | Geschiedenis van observatief. Snelle ingave observaties. De uitgebreide medicatie lijst |
+| Design | Onduidelijke navigatie en onderverdeling. Structuur is niet rond bewoner opgebouwd. Niet aantrekelijke interface. |
+| Pijnpunten | Dubbel werk alles staat op papier en digitaal. Mist een overzicht van de belangrijkste zaken. Traag in gebruik. Niet gebruiksvriendelijke. User interaction is moeilijk waardoor systeem minder gebruikt wordt. |
 {:.table}
 
-#### Basis profiel
+
+### Geracc & Fonicare
+
+*   [Geracc][geracc]: backoffice systeem
+*   [Fonicare][fonicare]: frontoffice systeem
+
+#### Sociaal dossier
 * Naam
 * Geboortedatum
 * Adres
-* Familieleden (naam, telefoon)
+* Beroep
+* Kinderen
+* Contactpersonenen
+* Bewindvoerder (regelt de financien)
+* Goddienstelijke overtuiging
 * Huisarts
+* INC
+* Multualiteit
+* Paecemaker of niet
+* Ziekenhuis
 
+##### Biografie
+Het levensverhaal (kunnen toevoegen op ieder moment)
 
-# Persona's
+#### Medischedossier
+* Anamnese (in-take gesprek, beknopte medische voorgeschiedenis bv. pathologie, diagnose)
+* Ziekenhuis verslagen
+* Labo resultaten
+* Huisarts bezoek
+  * zie prestatie
+  * observatie
+  * medicatie opstarten
+* Bevindingen therapie
 
-## A. Zorgkundigen
+#### Rollen
+* Familie
+* Huisarts
+* Zorgkundige
+* Verpleegkundige
+* Afdelingsverantwoordelijke
+* Diëtist
+* Logopedie
+* kinesist
+* Ergotherapeut
+* Keuken
+* Sociale dienst (regelen dienstverlening)
+* Directie
 
-### Geert Vandewalle
+#### Zorgplanning
+* Opgedeeld in dagdelen
+* Prestatie die uitgevooerd moeten worden en afgetekend
 
-| dd | oo |
-|:---|:---|
-| Job |Afdelingsverantwoordelijke|
-| Programma |Care careSolutions|
-| Taken | Ingeven individuele zorgplannen, plannen van parameters |
-| Sterktes | Overzicht van dagboek, observaties kunnen niet geediteerd noch verwijderd worden (juridisch belang), familie kan zorgdossier inkijken (transparantie), berichten sturen naar zorgteam / huisarts / familie |
-| Design |Onduidelijke navigatie en onderverdeling. Structuur is niet rond bewoner opgebouwd.|
-| Pijnpunten | Structuur en onderverdeling. Geen prioriteitenlijst voor de overdracht. |
+| Dagdelen | uren | taken |
+|:--|:--|:--|
+| ochtend | 6u45 - 11u | Hulp bij uit bed komen met rollator. Wassen aan de lavabo. Creme aan de stuit aanbrengen. Steunkousen aandoen. Vals gebit aanbrengen. Mondzorg & mondspoeling met Perio aid. Gehoorapparaat. incontentiemateriaal flex medium blauw (soort, maat & absorptie graad). Verplaatsen met rolwagen. Hulp bij eten, vloeistoffen indikken. Medicatie toedienen |
+| middag | 11u - 16u | Hulp bij het eten, dranken indikken. Mictie training (regelmatig laten naar het toilet laten gaan). Stappen met rollator |
+| avond | 16u - 21u | Hulp bij het eten, dranken indikken. Stappen rollator. Steunkousen uitdoen. gebit uitnemen. Benen hydrateren. Hoorapparaat uitnemen. Incontentiemateriaal flex medium paars. Veiligheidsmaatregel onrusthekkens omhoog. In bed leggen. |
+| nacht | 21u - 6u45 | Wisselhouding toepassen (Decubitus preventie). Incontentiemateriaal flex medium paars. Onrusthekkens omhoog |
 {:.table}
 
-## A. Bewoners
+#### Medicatierooster
+Tijdplanning elk uur, dag in de week, vaste dag in de maand en jaarlijks.
 
-# Ideaboard
+| Uren | medicatie |
+|:--|:--|:--|
+| 6u - 11u | 6u: Lthyroxin nuchter (nuchter = voor het eten). 8u: Paracetamol 1mg oraal. 8u: Asaflow 80mg. |
+| 11u - 17u | 12u: Paracetamol 1mg oraal. 16u: Paracetamol 1mg oraal. |
+| 17u - 20u | 18u: Deanxit 10mg |
+| 20u - 7u | 20u: Paracetamol 1mg oraal. 20u: clexane 40 mg sc (sc = onderhuids). 20u: Loramet 1mg. 2u: Paracetamol 1mg oraal. |
+{:.table}
+
+**Indien nodig**
+* Bij onrust: 3 druppels Haldol
+* Bij Constipatie: Duphalac 10 cc
+
+#### Medicatie
+* **Groep:**
+  * Bloedverdunner
+  * Anitbiotica
+  * Pijnstiller
+  * Hartmedicatie
+  * Angstmedicatie
+  * Laxativa
+  * Antispasmotica
+  * Slaapmedicatie
+  * Antidiabetica
+  * Antipsychotica
+  * Probiotica
+  * Vitaminen
+  * Amfetamine
+
+* **Toedieningswijze:**
+  * Oraal
+  * Subcutaan
+  * Intraderm
+  * Intramusculair
+  * Intraveneus
+  * Orodispergeerbaar
+  * Sublinguaal
+  * Transdermaal
+  * Anaal
+  * Vaginaal
+  * Auriculair
+  * Oftalmologisch
+  * Siroop
+  * Poeder
+  * Orale inhalatie
+
+* **Toedingsvormen:**
+  * Bruistablet
+  * Tablet
+  * Comprimé
+  * Smelttablet
+  * Kauwtablet
+  * Gelule
+  * Siroop
+  * Ampulle
+
+* **Permissies:**
+  * Huisarts
+  * Verpleegkundige
+  * Zorgkundige
+
+#### Wondzorg dossier
+* Plaats van de wonde
+* Soort wonde (gekoppeld aan procedure)
+  * Decubitus 1e graad
+  * Skintear (scheur in de huid)
+  * Operatiewonde
+  * Cystofix
+  * Brandwonden
+* Start datum: wanneer het gebeurt is
+* Inplannen: wanneer de wondzorg moet worden uitgevoerd
+* Manueel kunnen stoppen zetten
+* Procedure: standaard manier om wonde te verzorgen
+* Aandachtspunten met uitzondering op de procedure
+* Oorzaak
+* Afteken: zorgteam
+* Opmerkingen: hoe de wonde evolueert, afbeelding kunnen toevoegen.
+
+##### Soort wonde
+* Naam
+* Permissies
+* Therapie voorschrijft: beschrijving van hoe de wonde verzorgt moet worden.
+
+#### Valregistratie
+automatisch verwittegen aan kinesist.
+
+* Plaats: waar het gebeurt is
+* Datum & uur
+* Oorzaak
+  * Uit bed komen
+  * Obstakels
+  * Kledij
+  * Uitglijden
+  * Stuikelen
+  * Bloeddrukval
+  * Andere
+* Omschrijving
+* Gevolgen
+  * Geen letsel
+  * Klein letsel: waarvoor behandeling nodig is
+  * Breuk /  fractuur
+  * Overlijdens
+* Interventies
+  * Bloeddruk nemen & pols meten
+  * Opstarten wondzorg
+  * Ijszak aanbrengen
+  * Opnamen Ziekenhuis
+  * Huisarts opbellen
+  * Familie verwittigen
+  * Fixatie materiaal aanbrengen
+  * Vragen om te bellen: bewoner vragen om zorgkundige in het vervolg te verwitten.
+  * Rust: op het bed te rusten leggen
+
+#### Dagplanning
+* Een agenda met vaste activiteiten op vaste dagen.
+* Een planning per dag per bewoner met geplande activieten
+  * Kine
+  * Animatie
+  * Kapster bezoek
+  * Pedicure
+  * Logopedie
+  * Familiebezoek
+  * Huisarts
+  * Opname ziekenhuis
+
+##### Procedure
+Stappen plannen bij bepaalde situaties. Te volgen van dienst
+
+* **Hitte golf** Als de tempareatuur al drie dagen boven de 27° C is, dan overdag zonsverduistering, 's nachts de ramen open, gekloelde dranken aanbieden, mensen met nierproblemen moeten mineraalhoudend dranken drinken.
+* **Antibiotica** Bij de opstart van antibiotica dan moet meteen keuken en logistiek (brengen eten rond) geinformeerd worden dat yoghurt en licht verteerbare voeding voorzien. Extra water toedienen. Deze procedure loopt enkele dagen langer dan het toedienen van de antibiotica. De nacht verpleegkundige moet geïnformeerd worden dat antibiotica klaar gezet moet worden. Apotheker moet verwittigd worden dat antibiotica nodig is. De familie informeren dat antibiotica opgestart is. Kene tapoteren van de borst. Ergo & animatie dat persoon niet deelt neemt aan de geplande activiteiten.
+* **Diabetici (orale antidiabetica)** Maandelijks op een vaste dag wordt er dag curve gepland. Er wordt vier keer die dag de glycemie opgenomen. De voeiding wordt hier op aangepast. Wekelijks controle op wonden aan de voeten. Half jaarlijks bloedonderzoek door de arts. De voeding wordt aangepast aan suikerarm dieet. Maandelijjks het gewicht opnemen.
+* **Diabetici (insuline afhankelijke)** Maandelijks op een vaste dag wordt er dag curve gepland. Er wordt vier keer die dag de glycemie opgenomen. Dagelijks minium één tot zes keer volgens schema en noodzaak glycemie bepalen. Dagelijks insuline toedienen volgens voorschrift.
+  * **Vast schema** Per dagdeel een vaste waarde toedienen
+  * **Bijspuit schema** Afhankelijk van de opgenomen waarden glycemie eenheden aanpassen.
+
+#### Data visualisatie
+* Doorligwonden / Decubitus
+* Anitbiotica
+* Glycemie (opgemeten waarden en toegediende eenheden)
+* Aantal medicatie
+* Slaap medicatie
+* Psychofarmica (bv. antidepresiva, antipsychotica, angst remmers)
+* Aantal overlijdens
+* Reden van overleiden (oncologisch, niet oncologisch)
+* Vroegtijdige zorgplanning aanwezig
+* Aantal zieken van griep
+* Het eten dat terugkomt
+
+#### Acties
+* Vrije observaties
+* Parameters opnemen
+  * Bloeddruk
+  * Pols opmeten
+  * Stoelgangs registratie
+  * Vocht inname en eliminatie
+  * Temperatuur
+* Valregistratie
+* Stervens uiting
+
+## Ideaboard
+***
+
 Beweeg je muis over de afbeelingen om de notaties te zien.
 
 <div class="row">
@@ -155,3 +372,12 @@ Beweeg je muis over de afbeelingen om de notaties te zien.
         </ol>
     </div>
 </div>
+
+{% comment %}
+<!-- ⚓ Hyperlinks -->
+{% endcomment %}
+
+[caresolutions]:                http://www.caresolutions.be/
+[fonicare]:                     http://www.zorgeconomie.be/stakeholder/fonicare/
+[geracc]:                       http://www.geracc.be/nl
+[medina]:                       https://www.medina.be/nl

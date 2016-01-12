@@ -6,13 +6,13 @@
             <nav class="c-nav-main">
                 <ul class="c-nav-list">
                     <li class="c-nav-item">
-                        <a href="/info" class="c-nav-link {% if page.url contains "info" %}is-selected{% endif %}">Info</a>
+                        <a href="{{ site.baseurl }}/info" class="c-nav-link {% if page.url contains "info" %}is-selected{% endif %}">Info</a>
                     </li>
                     <li class="c-nav-item">
-                    <a href="/research" class="c-nav-link {% if page.url contains "research" %}is-selected{% endif %}">Research</a>
+                        <a href="{{ site.baseurl }}/research" class="c-nav-link {% if page.url contains "research" %}is-selected{% endif %}">Research</a>
                     </li>
                     <li class="c-nav-item">
-                    <a href="/design" class="c-nav-link {% if page.url contains "design" %}is-selected{% endif %}">Design</a>
+                        <a href="{{ site.baseurl }}/design" class="c-nav-link {% if page.url contains "design" %}is-selected{% endif %}">Design</a>
                     </li>
                 </ul>
             </nav>

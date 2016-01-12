@@ -2,7 +2,7 @@
 title: Healtcare
 email: office@michielvandewalle.com
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at beatae culpa ea est ex facere iste labore molestiae nesciunt nihil.
-baseurl: "healthcare/" # the subpath of your site, e.g. /blog/
+baseurl: "/healthcare/" # the subpath of your site, e.g. /blog/
 url: "http://healtcare.michielvandewalle.com" # the base hostname & protocol for your site
 
 # Build settings

@@ -1,11 +1,9 @@
 # Site settings
 title: Healtcare
-email: your-email@domain.com
+email: office@michielvandewalle.com
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at beatae culpa ea est ex facere iste labore molestiae nesciunt nihil.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://healtcare.michielvandewalle.com" # the base hostname & protocol for your site
 
 # Build settings
 highlighter: pygments
@@ -13,3 +11,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: pygments
+github: [Repository metadata]

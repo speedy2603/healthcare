@@ -337,7 +337,7 @@ Stappen plannen bij bepaalde situaties. Te volgen van dienst
 ## Ideaboard
 ***
 
-Beweeg je muis over de afbeelingen om de notaties te zien.
+Beweeg je muis over de afbeeldingen om de notaties te zien.
 
 <div class="row">
     <div class="col-lg-6">

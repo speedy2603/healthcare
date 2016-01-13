@@ -390,6 +390,56 @@ Beweeg je muis over de afbeeldingen om de notaties te zien.
     </div>
 </div>
 
+<div class="row">
+    <div class="col-lg-4">
+        <span id="idea-15" class="c-ideaboard"></span>
+        <ol>
+            <li>ddd</li>
+            <li>ddd</li>
+        </ol>
+    </div>
+    <div class="col-lg-4">
+        <span id="idea-16" class="c-ideaboard"></span>
+        <ol>
+            <li>ddd</li>
+            <li>ddd</li>
+        </ol>
+    </div>
+    <div class="col-lg-4">
+        <span id="idea-17" class="c-ideaboard"></span>
+        <ol>
+            <li>ddd</li>
+            <li>ddd</li>
+        </ol>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <span id="idea-18" class="c-ideaboard"></span>
+        <ol>
+            <li>ddd</li>
+            <li>ddd</li>
+        </ol>
+    </div>
+    <div class="col-lg-4">
+        <span id="idea-19" class="c-ideaboard"></span>
+        <ol>
+            <li>ddd</li>
+            <li>ddd</li>
+        </ol>
+    </div>
+    <div class="col-lg-4">
+        <span id="idea-20" class="c-ideaboard"></span>
+        <ol>
+            <li>ddd</li>
+            <li>ddd</li>
+        </ol>
+    </div>
+</div>
+
+
+
 {% comment %}
 <!-- ⚓ Hyperlinks -->
 {% endcomment %}

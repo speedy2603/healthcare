@@ -261,7 +261,7 @@ Het levensverhaal (kunnen toevoegen op ieder moment)
 * Parameters opnemen
   * Bloeddruk
   * Pols opmeten
-  * Stoelgangs registratie
+  * Stoelgang registratie
   * Vocht inname en eliminatie
   * Temperatuur
 * Valregistratie

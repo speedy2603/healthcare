@@ -47,40 +47,47 @@ Healtcare plus is een zorgdossier applicatie voor in rusthuizen. Het dossier hou
 * **Dashboard**
   * Bewoners
     * Kamer
-* **Bewoner**
+* **Bewoner**  
   * Visualisatie parameters
-  * Dagboek met observaties
-  * Inplannen van observaties
-  * Dossier met gegevens
-  * Toevoegen en verwijderen (soft delete)
+  * Dossiers
+    * Verzorging
+    * Agenda
+    * Wondzorg
+    * Verslagen
+    * Persoonlijke gegevens
 * **Medicatie**
   * Groep
   * Toedieningswijze
   * Toedieningsvorm
   * permissies
-* **Procedures**
-  * Titel
-  * Beschrijving
+* **Valregistratie**
+  * Oorzaken
+  * Gevolgen
 * **Procedures**
   * Title
   * Beschrijving hoe verzorging moet uitgevoerd worden
   * Permissie voor verzorging
   * Medicatie / Andere vrije ingave
-* **Rollen**
-  * Familie
-  * Huisarts
-  * Zorgkundige
-  * Verpleegkundige
-  * Afdelingsverantwoordelijke
-  * Diëtist
-  * Logopedie
-  * kinesist
-  * Ergotherapeut
-  * Keuken
-  * Sociale dienst (regelen dienstverlening)
-  * Directie
+* **Medewerkers**
+  * Persoonlijke gegevens: voornaam, naam, profiel afbeelding, geboortedatum
+  * Contactgegevens: adres, telefoon
+  * Rol  
 * **Accountbeheer**
-  * Rollen toevoegen en permissies toekennen
+  * Permissies
+  * Rollen
+    * Familie
+    * Huisarts
+    * Zorgkundige
+    * Verpleegkundige
+    * Afdelingsverantwoordelijke
+    * Diëtist
+    * Logopedie
+    * kinesist
+    * Ergotherapeut
+    * Keuken
+    * Sociale dienst (regelen dienstverlening)
+    * Directie
+
 
 #### 2.2 API
 De API is een RESTful API waarlangs de App communiceert met de back-end.
@@ -118,12 +125,36 @@ De API is een RESTful API waarlangs de App communiceert met de back-end.
     * Procedure
     * Opmerkingen
   * Bewoner
-    * Perssonlijke gegevens
-    * Administratief: contactpersonenen
-    * Medisch: huisarts, belangrijkste medische informatie
-    * Verzorgin: pedicure, kapster
-    * Levensloop: kinderen, hobbies, job
+    * Perssonlijke: Voornaam, naam, profiel afbeelding, geboortedatum, adres, geloofsovertuiging, kamer nummer
+    * Medische gegevens: lengte, gewicht, bloedgroep, peacemaker
+    * Familie: Partner, kinderen    
+    * ICE: contactpersonenen
+    * Contactgegevens: huisarts, bewindvoerder, mutualiteit, ziekenhuis
+    * Levensloop: beroep, hobbies, job
     * Biografie: verhalen
+    * Eten voorkeur
+  * Acties
+    * Vrij observatie
+      * Beschrijving
+      * Medewerker
+      * Tijdstip
+      * Belangrijkheid
+      * Melding voor andere medewerkers
+    * Parameters
+      * Type:
+        * bloeddruk
+        * pols opmeten
+        * temperatuur
+        * stoelgang
+        * vocht inname en eliminatie
+        * temperatuur
+    * Valregeistratie
+      * Plaats
+      * Tijdstip
+      * Oorzaak
+      * Beschrijving
+      * Gevolgen
+      * Procedure
 * Datasynchronisatie via de RESTful API
 
 {% comment %}

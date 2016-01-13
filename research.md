@@ -119,48 +119,6 @@ Allemaal obeservaties die als notitie worden ingegeven. Bij wondzorg wordt de op
 *   [Geracc][geracc]: backoffice systeem
 *   [Fonicare][fonicare]: frontoffice systeem
 
-#### Sociaal dossier
-* Naam
-* Geboortedatum
-* Adres
-* Beroep
-* Kinderen
-* Contactpersonenen
-* Bewindvoerder (regelt de financien)
-* Goddienstelijke overtuiging
-* Huisarts
-* INC
-* Multualiteit
-* Paecemaker of niet
-* Ziekenhuis
-
-##### Biografie
-Het levensverhaal (kunnen toevoegen op ieder moment)
-
-#### Medischedossier
-* Anamnese (in-take gesprek, beknopte medische voorgeschiedenis bv. pathologie, diagnose)
-* Ziekenhuis verslagen
-* Labo resultaten
-* Huisarts bezoek
-  * zie prestatie
-  * observatie
-  * medicatie opstarten
-* Bevindingen therapie
-
-#### Rollen
-* Familie
-* Huisarts
-* Zorgkundige
-* Verpleegkundige
-* Afdelingsverantwoordelijke
-* Diëtist
-* Logopedie
-* kinesist
-* Ergotherapeut
-* Keuken
-* Sociale dienst (regelen dienstverlening)
-* Directie
-
 #### Zorgplanning
 * Opgedeeld in dagdelen
 * Prestatie die uitgevooerd moeten worden en afgetekend
@@ -236,6 +194,18 @@ Tijdplanning elk uur, dag in de week, vaste dag in de maand en jaarlijks.
   * Verpleegkundige
   * Zorgkundige
 
+#### Dagplanning
+* Een agenda met vaste activiteiten op vaste dagen.
+* Een planning per dag per bewoner met geplande activieten
+  * Kine
+  * Animatie
+  * Kapster bezoek
+  * Pedicure
+  * Logopedie
+  * Familiebezoek
+  * Huisarts
+  * Opname ziekenhuis
+
 #### Wondzorg dossier
 * Plaats van de wonde
 * Soort wonde (gekoppeld aan procedure)
@@ -257,6 +227,45 @@ Tijdplanning elk uur, dag in de week, vaste dag in de maand en jaarlijks.
 * Naam
 * Permissies
 * Therapie voorschrijft: beschrijving van hoe de wonde verzorgt moet worden.
+
+#### Medischedossier
+* Anamnese (in-take gesprek, beknopte medische voorgeschiedenis bv. pathologie, diagnose)
+* Ziekenhuis verslagen
+* Labo resultaten
+* Huisarts bezoek
+  * zie prestatie
+  * observatie
+  * medicatie opstarten
+* Bevindingen therapie
+
+#### Sociaal dossier
+* Naam
+* Geboortedatum
+* Adres
+* Beroep
+* Kinderen
+* Contactpersonenen
+* Bewindvoerder (regelt de financien)
+* Goddienstelijke overtuiging
+* Huisarts
+* INC
+* Multualiteit
+* Paecemaker of niet
+* Ziekenhuis
+
+##### Biografie
+Het levensverhaal (kunnen toevoegen op ieder moment)
+
+#### Acties
+* Vrije observaties
+* Parameters opnemen
+  * Bloeddruk
+  * Pols opmeten
+  * Stoelgangs registratie
+  * Vocht inname en eliminatie
+  * Temperatuur
+* Valregistratie
+* Stervens uiting
 
 #### Valregistratie
 automatisch verwittegen aan kinesist.
@@ -288,18 +297,6 @@ automatisch verwittegen aan kinesist.
   * Vragen om te bellen: bewoner vragen om zorgkundige in het vervolg te verwitten.
   * Rust: op het bed te rusten leggen
 
-#### Dagplanning
-* Een agenda met vaste activiteiten op vaste dagen.
-* Een planning per dag per bewoner met geplande activieten
-  * Kine
-  * Animatie
-  * Kapster bezoek
-  * Pedicure
-  * Logopedie
-  * Familiebezoek
-  * Huisarts
-  * Opname ziekenhuis
-
 ##### Procedure
 Stappen plannen bij bepaalde situaties. Te volgen van dienst
 
@@ -309,6 +306,20 @@ Stappen plannen bij bepaalde situaties. Te volgen van dienst
 * **Diabetici (insuline afhankelijke)** Maandelijks op een vaste dag wordt er dag curve gepland. Er wordt vier keer die dag de glycemie opgenomen. Dagelijks minium één tot zes keer volgens schema en noodzaak glycemie bepalen. Dagelijks insuline toedienen volgens voorschrift.
   * **Vast schema** Per dagdeel een vaste waarde toedienen
   * **Bijspuit schema** Afhankelijk van de opgenomen waarden glycemie eenheden aanpassen.
+
+#### Rollen
+* Familie
+* Huisarts
+* Zorgkundige
+* Verpleegkundige
+* Afdelingsverantwoordelijke
+* Diëtist
+* Logopedie
+* kinesist
+* Ergotherapeut
+* Keuken
+* Sociale dienst (regelen dienstverlening)
+* Directie
 
 #### Data visualisatie
 * Doorligwonden / Decubitus
@@ -322,17 +333,6 @@ Stappen plannen bij bepaalde situaties. Te volgen van dienst
 * Vroegtijdige zorgplanning aanwezig
 * Aantal zieken van griep
 * Het eten dat terugkomt
-
-#### Acties
-* Vrije observaties
-* Parameters opnemen
-  * Bloeddruk
-  * Pols opmeten
-  * Stoelgangs registratie
-  * Vocht inname en eliminatie
-  * Temperatuur
-* Valregistratie
-* Stervens uiting
 
 ## Ideaboard
 ***

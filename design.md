@@ -44,8 +44,6 @@ Healtcare plus is een zorgdossier applicatie voor in rusthuizen. Het dossier hou
 ### 2. Functionele specificaties
 
 #### 2.1 Backoffice
-* **Rollen**
-  * Afdelingsverantwoordelijke
 * **Dashboard**
   * Bewoners
     * Kamer
@@ -55,6 +53,32 @@ Healtcare plus is een zorgdossier applicatie voor in rusthuizen. Het dossier hou
   * Inplannen van observaties
   * Dossier met gegevens
   * Toevoegen en verwijderen (soft delete)
+* **Medicatie**
+  * Groep
+  * Toedieningswijze
+  * Toedieningsvorm
+  * permissies
+* **Procedures**
+  * Titel
+  * Beschrijving
+* **Procedures**
+  * Title
+  * Beschrijving hoe verzorging moet uitgevoerd worden
+  * Permissie voor verzorging
+  * Medicatie / Andere vrije ingave
+* **Rollen**
+  * Familie
+  * Huisarts
+  * Zorgkundige
+  * Verpleegkundige
+  * Afdelingsverantwoordelijke
+  * Diëtist
+  * Logopedie
+  * kinesist
+  * Ergotherapeut
+  * Keuken
+  * Sociale dienst (regelen dienstverlening)
+  * Directie
 * **Accountbeheer**
   * Rollen toevoegen en permissies toekennen
 
@@ -67,19 +91,39 @@ De API is een RESTful API waarlangs de App communiceert met de back-end.
   * Medewerkers (zorgkundigen, kine, ergo, logo, etc)
   * Kapster & pedicure
   * Animatie
-* Bewoner
-  * Dagboek
-    * Overzicht alle verzorgin (24h)
-    * Checklist verzorging
-    * Vrij observaties
+* **Bewoner**
+  * Verzorging
+    * Zorgplanning
+      * Checklist met uit te voeren taken per dag deel
+      * Mogelijkheid om reactie toe te voegen
+    * Medischedossier
+      * Medicatie dat toegediend te worden
   * Agenda
-    * Planing met activiteiten van bewoner
-  * Dossier
+    * Activiteiten
+    * Bezoeken
+  * Wondzorgdossier
+    * Verslag en vooruitgang wonde
+      * Plaats van de wonde
+      * Soort wonde & genezingsprocedure
+      * Aandachtspunten
+      * Datum
+      * Oorzaak
+      * Opmerkingen
+      * Afbeelding
+  * Verslagen
+    * Titel
+    * Geneeskundige
+    * Verslag
+    * Afbeelding
+    * Procedure
+    * Opmerkingen
+  * Bewoner
     * Perssonlijke gegevens
     * Administratief: contactpersonenen
     * Medisch: huisarts, belangrijkste medische informatie
     * Verzorgin: pedicure, kapster
     * Levensloop: kinderen, hobbies, job
+    * Biografie: verhalen
 * Datasynchronisatie via de RESTful API
 
 {% comment %}

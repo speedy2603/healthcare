@@ -6,6 +6,9 @@ permalink: /research/
 
 # Research
 
+{% include elements.base.html %}
+
+
 ## Interviews
 ***
 

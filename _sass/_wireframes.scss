@@ -1,0 +1,25 @@
+.c-wireframe {
+  display: block;
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:left center;
+  &:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+$wireframes: (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20) !default;
+
+@each $item in $wireframes {
+  #wireframe-#{$item} {
+    background-image: url("../img/ideaboard/idea-#{$item}.jpg");
+    &:hover {
+      background-image: url("../img/ideaboard/idea-#{$item}B.jpg");
+    }
+  }
+}

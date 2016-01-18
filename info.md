@@ -3,6 +3,13 @@ layout: page
 title: Info
 permalink: /info/
 ---
+
+### Gannt planning
+De Gantt planning is opgesteld met online app [Gannt Pro][ganntpro].  De volledige gannt planning is [hier][ganntplanning] te bekijken.
+
+### Timesheet
+In de timesheet worden alle gewerkte uren bijgehouden. De timesheet is te bekijken in een online spreadsheet [hier][timesheet].
+
 ### Milestone 1
 Einddatum 7 februari
 
@@ -50,3 +57,11 @@ Einddatum 23 mei
   * Gebruikersinterface
   * Testing
   * Deployment
+
+{% comment %}
+<!-- ⚓ Hyperlinks -->
+{% endcomment %}
+
+[ganntpro]:                https://ganttpro.com/
+[ganntplanning]:           https://app.ganttpro.com/shared/token/aee810f6a15bff4a85aaeb20a8a70c8832b356bb9c82cba831a85763f1f31b35
+[timesheet]:               https://www.icloud.com/numbers/000gl60UqT1q-2gk2f9hxfGAw#BAP_healthcare

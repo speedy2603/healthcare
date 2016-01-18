@@ -1,7 +1,7 @@
 # Site settings
-title: Healtcare
+title: Healthcare
 email: office@michielvandewalle.com
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at beatae culpa ea est ex facere iste labore molestiae nesciunt nihil.
+description: Een digitaal zorgdossier voor rusthuizen met als doel om een vlottere administratie en een betere zorg te bieden
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://healtcare.michielvandewalle.com" # the base hostname & protocol for your site
 

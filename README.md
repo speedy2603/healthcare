@@ -11,3 +11,5 @@ Bachelorproef
 | Keuzeoptie | proDEV |
 | Opleidingsinstelling | Arteveldehogeschool |
 | Docent | Olivier Parent |
+
+[healthcare.michielvandewalle.com] (http://www.healthcare.michielvandewalle.com)

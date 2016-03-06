@@ -1,22 +1,30 @@
-<header class="container-fluid c-header">
-    <div class="container">
-        <div class="row">
-            <a class="c-nav-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-            <nav class="c-nav-main">
-                <ul class="c-nav-list">
-                    <li class="c-nav-item">
-                        <a href="{{ site.baseurl }}/info" class="c-nav-link {% if page.url contains "info" %}is-selected{% endif %}">Info</a>
+<header>
+    <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+        <div class="container">
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar">&#9776;</button>
+            <div class="collapse navbar-toggleable-xs" id="navbar">
+                <a class="navbar-brand" href="{{ site.baseurl }}/">
+                    <!--<img src="" alt="">-->
+                    {{ site.title }}
+                </a>
+                <ul class="nav navbar-nav pull-sm-right">
+                    <li class="nav-item {% if page.url contains "" %}active{% endif %}">
+                        <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
                     </li>
-                    <li class="c-nav-item">
-                        <a href="{{ site.baseurl }}/research" class="c-nav-link {% if page.url contains "research" %}is-selected{% endif %}">Research</a>
+                    <li class="nav-item {% if page.url contains "features" %}active{% endif %}">
+                        <a class="nav-link" href="{{ site.baseurl }}/features">Features</a>
                     </li>
-                    <li class="c-nav-item">
-                        <a href="{{ site.baseurl }}/design" class="c-nav-link {% if page.url contains "design" %}is-selected{% endif %}">Design</a>
+                    <li class="nav-item {% if page.url contains "research" %}active{% endif %}">
+                        <a class="nav-link" href="{{ site.baseurl }}/research">Research</a>
+                    </li>
+                    <li class="nav-item {% if page.url contains "about" %}active{% endif %}">
+                        <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-secondary active nav-item-button" href="">Login</a>
                     </li>
                 </ul>
-            </nav>
-
+            </div>
         </div>
-    </div>
+    </nav>
 </header>

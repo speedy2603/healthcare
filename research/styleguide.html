@@ -1,0 +1,17 @@
+---
+layout: page
+title: Styleguide
+permalink: /research/styleguide/
+---
+
+<div class="container">
+
+    <div class="row">
+        {% include research/navigation.html %}
+
+        <div class="col-md-9">
+            {% capture interviews %}{% include research/interviews.md %}{% endcapture %}
+            {{ interviews | markdownify }}
+        </div>
+    </div>
+</div>

@@ -1,13 +1,13 @@
 <div class="col-md-3">
     <nav>
-        <ul class="list-group">
-            <li class="list-group-item"><a href="{{ site.baseurl }}/research" class="list-group-link">Research</a></li>
-            <li class="list-group-item {% if page.url contains "interview" %}active{% endif %}"><a href="{{ site.baseurl }}/research/interview" class="list-group-link">Interviews</a></li>
-            <li class="list-group-item {% if page.url contains "moodboard" %}active{% endif %}"><a href="{{ site.baseurl }}/research/moodboard" class="list-group-link">Moodboard</a></li>
-            <li class="list-group-item {% if page.url contains "ideaboard" %}active{% endif %}"><a href="{{ site.baseurl }}/research/ideaboard" class="list-group-link">Ideaboard</a></li>
-            <li class="list-group-item {% if page.url contains "wireframes" %}active{% endif %}"><a href="{{ site.baseurl }}/research/wireframes" class="list-group-link">Wireframes</a></li>
-            <li class="list-group-item {% if page.url contains "screendesigns" %}active{% endif %}"><a href="{{ site.baseurl }}/research/screendesigns" class="list-group-link">Screendesigns</a></li>
-            <li class="list-group-item {% if page.url contains "styleguide" %}active{% endif %}"><a href="{{ site.baseurl }}/research/styleguide" class="list-group-link">Styleguide</a></li>
-        </ul>
+        <div class="list-group">
+            <a href="{{ site.baseurl }}/research" class="list-group-item">Research</a>
+            <a href="{{ site.baseurl }}/research/interview" class="list-group-item {% if page.url contains "interview" %}active{% endif %}">Interviews</a>
+            <a href="{{ site.baseurl }}/research/moodboard" class="list-group-item {% if page.url contains "moodboard" %}active{% endif %}">Technische specificaties</a>
+            <a href="{{ site.baseurl }}/research/ideaboard" class="list-group-item {% if page.url contains "ideaboard" %}active{% endif %}">Ideaboard</a>
+            <a href="{{ site.baseurl }}/research/wireframes" class="list-group-item {% if page.url contains "wireframes" %}active{% endif %}">Wireframes</a>
+            <a href="{{ site.baseurl }}/research/screendesigns" class="list-group-item {% if page.url contains "screendesigns" %}active{% endif %}">Screendesigns</a>
+            <a href="{{ site.baseurl }}/research/styleguide" class="list-group-item {% if page.url contains "styleguide" %}active{% endif %}">Styleguide</a>
+        </div>
     </nav>
 </div>

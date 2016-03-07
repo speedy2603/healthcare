@@ -4,6 +4,7 @@ email: office@michielvandewalle.com
 description: Een digitaal zorgdossier voor rusthuizen met als doel om een vlottere administratie en een betere zorg te bieden
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://healtcare.michielvandewalle.com" # the base hostname & protocol for your site
+image: "/img"
 
 # Build settings
 highlighter: pygments

@@ -55,7 +55,7 @@ $brand-danger:              #d9534f !default;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-flex:               false !default;
+$enable-flex:               true !default;
 $enable-rounded:            true !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
@@ -179,8 +179,8 @@ $line-height-base: 1.5 !default;
 $font-size-h1: 2.5rem !default;
 $font-size-h2: 2rem !default;
 $font-size-h3: 1.75rem !default;
-$font-size-h4: 1.5rem !default;
-$font-size-h5: 1.25rem !default;
+$font-size-h4: 1.25rem !default;
+$font-size-h5: 1rem !default;
 $font-size-h6: 1rem !default;
 
 $display1-size: 6rem !default;
@@ -193,12 +193,15 @@ $display2-weight: 300 !default;
 $display3-weight: 300 !default;
 $display4-weight: 300 !default;
 
+$headings-margin-top:    $spacer !default;
 $headings-margin-bottom: ($spacer / 2) !default;
 $headings-font-family:   inherit !default;
-$headings-font-weight:   500 !default;
+$headings-font-weight:   600 !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
+$headings-color-muted:   $gray-light !default;
 
+$lead-margin-bottom:   2rem !default;
 $lead-font-size:   1.25rem !default;
 $lead-font-weight: 300 !default;
 
@@ -819,22 +822,12 @@ $code-bg:                     #f7f7f9 !default;
 $kbd-color:                   #fff !default;
 $kbd-bg:                      #333 !default;
 
+$nt-color:                    #2f6f9f !default;
+$na-color:                    #4f9fcf !default;
+$s-color:                     #d44950 !default;
+
+
 $pre-bg:                      #f7f7f9 !default;
 $pre-color:                   $gray-dark !default;
 $pre-border-color:            #ccc !default;
 $pre-scrollable-max-height:   340px !default;
-
-// Spacing
-
-$increments: (
-        alpha                   : 0,
-        beta                    : .5,
-        gamma                   : 1,
-        delta                   : 1.5,
-        epsilon                 : 2,
-        zeta                    : 2.5,
-        eta                     : 3,
-        thata                   : 4,
-        iota                    : 5,
-        lambda                  : 6
-) !default;

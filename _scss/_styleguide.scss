@@ -1,0 +1,12 @@
+// Theme: Icon
+
+.sg-color-block {
+  height: 120px;
+
+  &.bg-secondary {
+    background-color: $brand-success;
+  }
+  &.bg-thirdary {
+    background-color: $brand-info;
+  }
+}

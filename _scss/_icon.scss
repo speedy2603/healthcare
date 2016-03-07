@@ -1,0 +1,27 @@
+// Theme: Icon
+
+.icon {
+  font-family: 'Material Icons';
+  color: $gray-light;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  vertical-align: bottom;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+
+  &:hover {
+    color: inherit;
+  }
+
+  &.icon-lg {
+    font-size: $font-size-h1;
+  }
+}

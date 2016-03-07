@@ -3,6 +3,7 @@ layout: page
 title: Styleguide
 permalink: /research/styleguide/
 ---
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
 <div class="container">
 
@@ -10,8 +11,217 @@ permalink: /research/styleguide/
         {% include research/navigation.html %}
 
         <div class="col-md-9">
-            {% capture interviews %}{% include research/interviews.md %}{% endcapture %}
-            {{ interviews | markdownify }}
+            <h1>Styleguide</h1>
+            <hr>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi architecto beatae cumque cupiditate eius esse facere, ipsa magni nam nulla pariatur placeat, porro quisquam rerum sed, soluta vero voluptas!</p>
+
+            <h2>Color</h2>
+            <hr>
+            <div class="row">
+                <div class="col-xs-6 col-sm-4">
+                    <div class="card">
+                        <div class="bg-primary sg-color-block"></div>
+                        <div class="card-block">
+                            <h5>Primary</h5>
+                            <span class="text-muted">#122112</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <div class="card">
+                        <div class="bg-secondary sg-color-block"></div>
+                        <div class="card-block">
+                            <h5>Primary</h5>
+                            <span class="text-muted">#122112</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <div class="card">
+                        <div class="bg-thirdary sg-color-block"></div>
+                        <div class="card-block">
+                            <h5>Primary</h5>
+                            <span class="text-muted">#122112</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Typography</h2>
+            <hr>
+            <div class="card">
+                <div class="card-block">
+                    <h1>h1. Healhtcare heading</h1>
+                    <h2>h2. Healhcare heading</h2>
+                    <h3>h3. Healhcare heading</h3>
+                    <h4>h4. Healhcare heading</h4>
+                    <h5>h5. Healhcare heading</h5>
+                    <h6>h6. Healhcare heading</h6>
+                </div>
+                <div class="card-footer">
+                    <pre>
+                        <code>
+                            <span class="nt">&lt;h1&gt;</span>h1. Healhtcare heading<span class="nt">&lt;/h1&gt;</span>
+                            <span class="nt">&lt;h2&gt;</span>h2. Healhtcare heading<span class="nt">&lt;/h2&gt;</span>
+                            <span class="nt">&lt;h3&gt;</span>h3. Healhtcare heading<span class="nt">&lt;/h3&gt;</span>
+                            <span class="nt">&lt;h4&gt;</span>h4. Healhtcare heading<span class="nt">&lt;/h4&gt;</span>
+                            <span class="nt">&lt;h5&gt;</span>h5. Healhtcare heading<span class="nt">&lt;/h5&gt;</span>
+                            <span class="nt">&lt;h6&gt;</span>h6. Healhtcare heading<span class="nt">&lt;/h6&gt;</span>
+                        </code>
+                    </pre>
+                </div>
+
+            </div>
+
+            <h2>Iconography</h2>
+            <hr>
+            <p>Gebruik gemaakt van <a href="https://design.google.com/icons/" target="_blank">Material Icons</a></p>
+            <div class="row">
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">account_box</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">contacts</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">assessment</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">dashboard</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">delete</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">delete_forever</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">https</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">highlight_off</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">control_point</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">info_outline</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">help_outline</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">do_not_disturb</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">schedule</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">search</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">visibility</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">visibility_off</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">settings</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">timeline</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">event</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">equalizer</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">hearing</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">fingerprint</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">business</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">phone</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">comment</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">forum</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">add_circle_outline</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">select_all</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">sort_by_alpha</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">sort</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">nfc</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">bubble_chart</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">memory</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">adjust</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">blur_circular</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">filter_tilt_shift</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">layers</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">chevron_left</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">chevron_right</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">expand_less</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">expand_more</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">more_vert</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">ac_unit</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">supervisor_account</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">group</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">person</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">person_add</span>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-1">
+                    <span class="icon icon-lg">accessibility</span>
+                </div>
+            </div>
         </div>
     </div>
 </div>

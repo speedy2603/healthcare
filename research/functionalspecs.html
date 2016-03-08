@@ -1,0 +1,16 @@
+---
+layout: page
+title: Functionele specificaties
+permalink: /research/functionalspecs/
+---
+<div class="container">
+
+    <div class="row">
+        {% include research/navigation.html %}
+
+        <div class="col-xs-12 col-md-9">
+            {% capture functionalspecs %}{% include research/functionalspecs.md %}{% endcapture %}
+            {{ functionalspecs | markdownify }}
+        </div>
+    </div>
+</div>

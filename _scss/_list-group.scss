@@ -2,3 +2,8 @@
 .active > .list-group-link {
   color: #fff;
 }
+
+.list-group-item-heading {
+  background-color: $gray-lighter;
+  margin-bottom: 0;
+}

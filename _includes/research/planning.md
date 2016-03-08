@@ -1,16 +1,14 @@
----
-layout: page
-title: Info
-permalink: /info/
----
-
-### Gannt planning
+# Planning
+***
 De Gantt planning is opgesteld met online app [Gannt Pro][ganntpro].  De volledige gannt planning is [hier][ganntplanning] te bekijken.
+{:class="lead"}
 
-### Timesheet
+## Timesheet
+***
 In de timesheet worden alle gewerkte uren bijgehouden. De timesheet is te bekijken in een online spreadsheet [hier][timesheet].
 
-### Milestone 1
+## Milestone 1
+***
 Einddatum 7 februari
 
 * Academische poster
@@ -29,7 +27,8 @@ Einddatum 7 februari
 * Presentatie alpha
 * Timesheet
 
-### Milestone 2
+## Milestone 2
+***
 Einddatum 28 februari
 
 * Templates backoffice
@@ -37,14 +36,16 @@ Einddatum 28 februari
   * specificaties zie Productiedossier
 * API
 
-### Milestone 3
+## Milestone 3
+***
 Einddatum 30 april
 
 * Templates frontoffice
-* Frontoffice met ReactJS
+* Frontoffice met AngularJS
   * specificaties zie Productiedossier
 
-### Milestone 4
+## Milestone 4
+***
 Einddatum 23 mei
 
 * Release Candidate-versie opleveren

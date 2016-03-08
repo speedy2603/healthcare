@@ -1,0 +1,14 @@
+.navbar-header {
+  @include media-breakpoint-down(xs) {
+    display: block;
+    width: 100%;
+  }
+}
+.navbar-nav {
+  .nav-item {
+    @include media-breakpoint-down(xs) {
+      float: none;
+      margin-left: 0 !important;
+    }
+  }
+}

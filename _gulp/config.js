@@ -31,8 +31,7 @@ module.exports = {
 
     js: {
         src : [  // source js file
-          path + '_js/components/*.js',
-          path + '_js/app.js',
+          path + '_js/*.js',
         ],
         concatFilename: 'app.js', // result filename
         jekyllJsDest: path + '_site/js/',

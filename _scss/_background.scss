@@ -1,0 +1,6 @@
+//
+// Contextual backgrounds
+//
+
+@include bg-variant('.bg-green', $brand-green);
+@include bg-variant('.bg-orange', $brand-orange);

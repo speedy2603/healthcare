@@ -20,28 +20,28 @@ permalink: /research/styleguide/
             <div class="row">
                 <div class="col-xs-6 col-sm-4">
                     <div class="card">
-                        <div class="bg-primary sg-color-block"></div>
+                        <div class="bg-primary h-7"></div>
                         <div class="card-block">
                             <h5>Primary</h5>
-                            <span class="text-muted">#122112</span>
+                            <span class="text-muted">#4A4FAF</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-4">
                     <div class="card">
-                        <div class="bg-secondary sg-color-block"></div>
+                        <div class="bg-green h-7"></div>
                         <div class="card-block">
-                            <h5>Primary</h5>
-                            <span class="text-muted">#122112</span>
+                            <h5>Green</h5>
+                            <span class="text-muted">#0C8F65</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-4">
                     <div class="card">
-                        <div class="bg-thirdary sg-color-block"></div>
+                        <div class="bg-orange h-7"></div>
                         <div class="card-block">
-                            <h5>Primary</h5>
-                            <span class="text-muted">#122112</span>
+                            <h5>Orange</h5>
+                            <span class="text-muted">#FF7F28</span>
                         </div>
                     </div>
                 </div>
@@ -217,6 +217,30 @@ permalink: /research/styleguide/
                 {% capture iconography %}{% include research/styleguide/iconography.md %}{% endcapture %}
                 {{ iconography | markdownify }}
             </div>
+
+            <h2>Flash message</h2>
+            <hr>
+            <div class="card">
+                <div class="card-block">
+                    <div class="alert alert-success" role="alert">
+                        <strong>Well done!</strong> You successfully read this important alert message.
+                    </div>
+                    <div class="alert alert-info" role="alert">
+                        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                    </div>
+                    <div class="alert alert-warning" role="alert">
+                        <strong>Warning!</strong> Better check yourself, you're not looking too good.
+                    </div>
+                    <div class="alert alert-danger" role="alert">
+                        <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                    </div>
+                </div>
+                <div class="bg-faded">
+                    {% capture flashmessage %}{% include research/styleguide/flashmessage.md %}{% endcapture %}
+                    {{ flashmessage | markdownify }}
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
